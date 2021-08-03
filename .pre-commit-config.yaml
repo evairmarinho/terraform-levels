@@ -1,0 +1,25 @@
+repos:
+  - repo: git://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.50.0
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_docs
+        args:
+         - '--args=--sort-by-required'
+      - id: terraform_validate
+      - id: terraform_tflint
+        args:
+            - '--args=--only=terraform_deprecated_interpolation'
+            - '--args=--only=terraform_deprecated_index'
+            - '--args=--only=terraform_unused_declarations'
+            - '--args=--only=terraform_comment_syntax'
+            - '--args=--only=terraform_documented_outputs'
+            - '--args=--only=terraform_documented_variables'
+            - '--args=--only=terraform_typed_variables'
+            - '--args=--only=terraform_module_pinned_source'
+            - '--args=--only=terraform_naming_convention'
+            - '--args=--only=terraform_required_version'
+            - '--args=--only=terraform_required_providers'
+      - id: terraform_tfsec
+        args:
+          - "--args=-e AWS002,AWS003,AWS004,AWS005,AWS006,AWS007,AWS008,AWS009,AWS010,AWS012,AWS014,AWS015,AWS016,AWS017,AWS019,AWS020,AWS021,AWS022,AWS023,AWS024,AWS025,AWS031,AWS032,AWS033,AWS034,AWS035,AWS036,AWS045,AWS046,AWS047,AWS048,AWS049,AWS050,AWS051,AWS052,AWS053,AWS057,AWS058,AWS059,AWS060,AWS061,AWS066,AWS067,AWS068,AWS069,AWS070,AWS071,AWS072,AWS077,AWS079,AWS080,AWS081,AWS083,AWS084,AWS085,AWS086,AWS089,AWS091,AWS092,AWS093,AWS094,AWS095,AWS096"
