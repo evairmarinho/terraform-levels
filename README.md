@@ -2,11 +2,11 @@
 
 This repository aims to:
 
-- [X] show Terraform codes from the most basic to the most advanced level in terms of abstraction.
+- [x] show Terraform codes from the most basic to the most advanced level in terms of abstraction.
 
-- [X] helping those just starting to learn Terraform.
+- [x] helping those just starting to learn Terraform.
 
-- [X] helping those who no longer know how to evolve their Terraform codes using modules.
+- [x] helping those who no longer know how to evolve their Terraform codes using modules.
 
 ## Summary
 
