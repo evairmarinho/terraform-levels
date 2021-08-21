@@ -1,3 +1,15 @@
+# Introduction
+
+This repository aims to:
+
+- [x] show Terraform codes from the most basic to the most advanced level in terms of abstraction.
+
+- [x] helping those just starting to learn Terraform.
+
+- [x] helping those who no longer know how to evolve their Terraform codes using modules.
+
+## Summary
+
 1. [Level 1](https://github.com/evairmarinho/terraform-levels/tree/main/level_1)
 1. [Level 2](https://github.com/evairmarinho/terraform-levels/tree/main/level_2)
 1. [Level 3](https://github.com/evairmarinho/terraform-levels/tree/main/level_3)
