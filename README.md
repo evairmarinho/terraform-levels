@@ -2,11 +2,11 @@
 
 This repository aims to:
 
-- :white_check_mark: Show Terraform codes from the most basic to the most advanced level in terms of abstraction.
+:white_check_mark: Show Terraform codes from the most basic to the most advanced level in terms of abstraction.
 
-- :white_check_mark: Helping those just starting to learn Terraform.
+:white_check_mark: Helping those just starting to learn Terraform.
 
-- :white_check_mark: Helping those who no longer know how to evolve their Terraform codes using modules.
+:white_check_mark: Helping those who no longer know how to evolve their Terraform codes using modules.
 
 ## Summary
 
