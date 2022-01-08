@@ -1,6 +1,6 @@
 variable "data_s3_buckets" {
   description = "List of S3 buckets."
-  type = list(object({
+  type = map(object({
     bucket_name             = string
     block_public_acls       = bool
     block_public_policy     = bool

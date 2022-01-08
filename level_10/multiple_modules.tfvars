@@ -1,6 +1,6 @@
 region            = "us-east-2"
 ec2_instance_name = "EC2_Level_10"
-ec2_instance_type = "t2.micro"
+ec2_instance_type = "t3.micro"
 
 
 s3_buckets = {
