@@ -12,13 +12,22 @@ This repository aims to:
 
 [Level :one:](https://github.com/evairmarinho/terraform-levels/tree/main/level_1)
 
-:two: [Level 2](https://github.com/evairmarinho/terraform-levels/tree/main/level_2)
-:three: [Level 3](https://github.com/evairmarinho/terraform-levels/tree/main/level_3)
-:four: [Level 4](https://github.com/evairmarinho/terraform-levels/tree/main/level_4)
-:five: [Level 5](https://github.com/evairmarinho/terraform-levels/tree/main/level_5)
-:six: [Level 6](https://github.com/evairmarinho/terraform-levels/tree/main/level_6)
-:seven: [Level 7](https://github.com/evairmarinho/terraform-levels/tree/main/level_7)
-:eight: [Level 8](https://github.com/evairmarinho/terraform-levels/tree/main/level_8)
-:nine: [Level 9](https://github.com/evairmarinho/terraform-levels/tree/main/level_9)
-:one: :zero: [Level 10](https://github.com/evairmarinho/terraform-levels/tree/main/level_10)
-:one: :one: [Level 11](https://github.com/evairmarinho/terraform-levels/tree/main/level_11)
+[Level :two:](https://github.com/evairmarinho/terraform-levels/tree/main/level_2)
+
+[Level :three:](https://github.com/evairmarinho/terraform-levels/tree/main/level_3)
+
+[Level :four:](https://github.com/evairmarinho/terraform-levels/tree/main/level_4)
+
+[Level :five:](https://github.com/evairmarinho/terraform-levels/tree/main/level_5)
+
+[Level :six:](https://github.com/evairmarinho/terraform-levels/tree/main/level_6)
+
+[Level :seven:](https://github.com/evairmarinho/terraform-levels/tree/main/level_7)
+
+[Level :eight:](https://github.com/evairmarinho/terraform-levels/tree/main/level_8)
+
+[Level :nine:](https://github.com/evairmarinho/terraform-levels/tree/main/level_9)
+
+[Level :one: :zero:](https://github.com/evairmarinho/terraform-levels/tree/main/level_10)
+
+[Level :one: :one:](https://github.com/evairmarinho/terraform-levels/tree/main/level_11)
