@@ -1,16 +1,16 @@
 module "s3" {
   source                  = "./modules/s3/"
-  count                   = length(var.s3_buckets)
-  bucket_name             = lookup(var.s3_buckets[count.index], "bucket_name", "")
-  block_public_acls       = lookup(var.s3_buckets[count.index], "block_public_acls", true)
-  block_public_policy     = lookup(var.s3_buckets[count.index], "block_public_policy", true)
-  ignore_public_acls      = lookup(var.s3_buckets[count.index], "ignore_public_acls", true)
-  restrict_public_buckets = lookup(var.s3_buckets[count.index], "restrict_public_buckets", true)
+  for_each                = var.s3_buckets
+  bucket_name             = each.value.bucket_name
+  block_public_acls       = try(each.value.block_public_acls, true)
+  block_public_policy     = try(each.value.block_public_policy, true)
+  ignore_public_acls      = try(each.value.ignore_public_acls, true)
+  restrict_public_buckets = try(each.value.restrict_public_buckets, true)
 }
 
 module "ec2" {
   source        = "./modules/ec2/"
   instance_type = var.ec2_instance_type
   instance_name = var.ec2_instance_name
-  bucket_arns   = module.s3.*.bucket_arn
+  bucket_arns   = [for i in module.s3 : i.bucket_arn]
 }
