@@ -10,7 +10,7 @@ This repository aims to:
 
 ## Summary
 
-:one: [Level 1](https://github.com/evairmarinho/terraform-levels/tree/main/level_1)
+[Level :one:](https://github.com/evairmarinho/terraform-levels/tree/main/level_1)
 :two: [Level 2](https://github.com/evairmarinho/terraform-levels/tree/main/level_2)
 :three: [Level 3](https://github.com/evairmarinho/terraform-levels/tree/main/level_3)
 :four: [Level 4](https://github.com/evairmarinho/terraform-levels/tree/main/level_4)
